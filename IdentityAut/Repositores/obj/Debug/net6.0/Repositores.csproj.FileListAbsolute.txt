@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\IdentityAut\Repositores\bin\Debug\net6.0\Repositores.deps.json
+C:\Users\User\source\repos\IdentityAut\Repositores\bin\Debug\net6.0\Repositores.dll
+C:\Users\User\source\repos\IdentityAut\Repositores\bin\Debug\net6.0\Repositores.pdb
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.AssemblyInfo.cs
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.dll
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\refint\Repositores.dll
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.pdb
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\ref\Repositores.dll
+C:\Users\User\source\repos\IdentityAut\Repositores\bin\Debug\net6.0\Identity-Entities-Context.dll
+C:\Users\User\source\repos\IdentityAut\Repositores\bin\Debug\net6.0\Identity-Entities-Context.pdb
+C:\Users\User\source\repos\IdentityAut\Repositores\obj\Debug\net6.0\Repositores.csproj.CopyComplete

@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Int32 a = 0;
+}
+@using Core.DTOs.Article
+@model MVC.Models.TegHelperModels.ObjectListModel
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - IdentityAut</title>
+    <link href="@Url.Content("~/css/magic/magic.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/short-article-lent.css")" rel="stylesheet" type="text/css" />
+</head>
+<script>
+    let articleRate
+</script>
+<div id="grid">
+    @foreach (ShortArticleDto x in Model.ArticlePreviews)
+    {
+        <div class="article-card" style="position: relative;overflow:hidden;">
+
+            <div class="full hidden puffOut" style="padding: 0;margin: 0; height: 25rem; position: absolute; z-index:1000">
+                <div class="cardInfo" style="">
+                    <h5 style="padding-right:0">@Html.Raw(@x.ShortDescription)</h5>
+                </div>
+                <div class="card-botton" style="position: absolute;bottom:0">
+                    <a href="@Url.Action("GetSelectedArticle", "Article", new { ArticleId = x.Id })" class="custom-button-2 custom-button-3" >Читать</a>
+                    <a href="@Html.Raw(@x.ArticleSourceUrl)" class="custom-button-2 custom-button-3">В источник -></a>
+                    <a href="@Url.Action("DeleteArticlesById", "Article", new { articleId = x.Id})" type="button" class="btn btn-danger">Удалить</a>
+                </div> 
+            </div>
+
+            <div class="preview" style="padding: 0;margin: 0;position: relative;">
+                <div class="Icontainer">
+                    <img class="Articleimg" src="@Html.Raw(x.ArticlePicture)">
+                </div>
+                <div class="cardInfo">
+                <div class="source-rate">
+                    <p class="card-text">@Html.Raw(@x.SourceName)</p>
+                        <p class="card-text">@Html.Raw((x.DateTime.ToLongDateString()))</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="article-rate-pict+@x.Id" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+                        <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                    </svg>
+                    <p id="article-rate+@x.Id" class="card-text" style="padding-right: 0">@Html.Raw(x.PositiveRate)</p>
+                    <script>
+                     
+                            articleRate = document.getElementById("article-rate+@x.Id")
+                            articleRatePict = document.getElementById("article-rate-pict+@x.Id")
+                            
+                            if (parseFloat(articleRate.textContent) <4.0) {
+                                articleRate.setAttribute("style", "color: red;");
+                               articleRatePict.setAttribute("style", "color: red;");
+                            }
+                            else if (parseFloat(articleRate.textContent) > 6.0) {
+                                articleRate.setAttribute("style", "color: green;");
+                                articleRatePict.setAttribute("style", "color: green;");
+                            }
+                    
+                    </script>
+                </div>
+                <h5 style="padding-right:0">@Html.Raw(@x.Title)</h5>
+            </div>
+            </div>
+        </div>
+
+    }
+</div>
+@section Scripts{
+    <script src="/js/Article.js"></script>
+    
+}
+<pagination page-info="Model.PageInfo" page-action="GetArticlesByPage"></pagination>

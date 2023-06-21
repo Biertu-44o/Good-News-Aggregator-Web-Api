@@ -1,0 +1,160 @@
+﻿
+@media (min-width:  940px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "nav header"
+            "nav article"
+            "nav article";
+        grid-template-rows: 120px 100%;
+        grid-template-columns: 20% 77%;
+        background-color: #dc3545;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
+
+    header, article, nav, div {
+        padding: 20px;
+    }
+
+    #pageHeader {
+        grid-area: header;
+    }
+
+    #mainArticle {
+        grid-area: article;
+    }
+
+    #mainNav {
+        grid-area: nav;
+    }
+
+    .ScrollSortHelperBlock {
+        background: #1e1c1c;
+        border-radius: 10px; 
+        margin: 20px 0px 0px 0px;
+        width: 100%;
+        text-align: right;
+    }
+    .HelperBlockbuttom {
+        display: contents;
+        width: 7%;
+        height: 100%;
+        background: #1e1c1c;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+@media (max-width: 939px) and (min-width: 200px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "article"
+            "foter";
+        grid-template-rows: repeat(3, auto);
+        grid-template-rows: 7% 90% 0%;
+        grid-template-columns: 100%;
+        background-color: #dc3545;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .ScrollSortHelperBlock {
+        display: flex;
+        justify-content: center;
+        background: #1e1c1c;
+        width: 100%;
+        height: 100%
+    }
+
+    article, div {
+        padding: 20px;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #pageHeader {
+        grid-area: header;
+    }
+
+    #mainArticle {
+        grid-area: article;
+    }
+
+    .disIfMobile {
+        display: none
+    }
+
+    .HelperBlockbuttom {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* для центрирования текста по горизонтали */
+        font-size: 1.5em;
+        background: #1e1c1c;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+.pct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    background: #1e1c1c;
+    padding: 0em 0em 3em; 
+    border-radius: 10px; 
+    margin: 20px 0px 50px 40px;
+}
+
+.buttom {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1e1c1c;
+    padding-left: 13px;
+    color: white;
+    font-weight: bold;
+    line-height: 33px;
+    text-decoration: none;
+    transition: 0.1s linear;
+}
+
+.buttom:hover {
+    color: #ffe81a; /* Цвет текста */
+    background: #3b3939; /* Цвет фона */
+}
+
+
+.HelperBlockbuttom:hover {
+    color: #ffe81a; /* Цвет текста */
+}
+
+.NameFieldClass {
+    display: contents;
+    width: 7%;
+    height: 100%;
+    margin-left: 80%;
+    background: #1e1c1c;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 45px;
+}
+.field-validation-error {
+    color: red;
+}
+.input-validation-error {
+    border: 1px solid red;
+}

@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0246: The type or namespace name 'GetUserByRefreshTokenQueryHandler' could not be found (are you missing a using directive or an assembly reference?)
+dotnet_diagnostic.CS0246.severity = none

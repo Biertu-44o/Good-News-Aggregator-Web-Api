@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    String  RoleString=String.Empty;
+}
+@using Core.DTOs.Account
+@model List<Core.DTOs.Account.UserDto>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - IdentityAut</title>
+    <link href="@Url.Content("~/css/admin-menu.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body style="width: 100%;">
+<div style="width: 100%;">
+
+    <table class="table" style="width: 100%;">
+        <thead>
+        <tr>
+            <th scope="col" style="text-align: center;">Id</th>
+            <th scope="col" style="text-align: center;">Name</th>
+            <th scope="col" style="text-align: center;">Email</th>
+            <th scope="col" style="text-align: center;">Created</th>
+            <th scope="col" style="text-align: center;">Positive Rate</th>
+            <th scope="col" style="text-align: center;">Roles</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (UserDto x in Model)
+        {
+            <tr>
+                <td style="text-align: center;">@x.Id</td>
+                <td style="text-align: center;">@x.Name</td>
+                <td style="text-align: center;">@x.Email</td>
+                <td style="text-align: center;">@x.Created</td>
+                <td style="text-align: center;">@x.PositiveRate</td>
+                <td>
+
+                    @if (x.Roles != null)
+                    {
+                        foreach (var r in x.Roles)
+                        {
+                            RoleString += " " + r;
+                        }
+                    }
+                    <p style="text-align: center;" style="text-align: center;">@RoleString</p>
+                    @{
+                        RoleString = String.Empty;
+                    }
+
+                </td>
+                <td><a ctype="button" class="btn btn btn-danger">BAN</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+</div>
+</body>

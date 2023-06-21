@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web Api Controllers</name>
+    </assembly>
+    <members>
+        <member name="M:Web_Api_Controllers.Controllers.ArticleController.GetArticlesByPage(Web_Api_Controllers.RequestModels.GetArticlesRequest)">
+             <summary>
+             Get articles by page filtered by rate.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /article?Page=3&amp;PageSize=4&amp;UserFilter=5
+            
+             </remarks>
+             <response code="200">List of articles with a rating higher than the argument</response>
+             <response code="400">Not valid arguments</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.ArticleController.GetArticlesCount(System.Int32)">
+             <summary>
+             Get the number of articles with a rating higher than the rate.
+             </summary>
+             <param name="rate"> Greater than or equal to 0 and less than or equal to 10.</param>
+             <remarks>
+             Sample request:
+            
+                 GET /article/articles/3
+            
+             </remarks>
+             <response code="200">Articles count with a rating higher than the argument</response>
+             <response code="400">Not valid arguments</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.ArticleController.GetSelectedArticle(System.Int32)">
+             <summary>
+             Get full article by id.
+             </summary>
+             <param name="id">Article id. Greater than 0</param>
+             <remarks>
+             Sample request:
+            
+                 GET /article/2665
+            
+             </remarks>
+             <response code="200">Article with full content</response>
+             <response code="400">Invalid id</response>
+             <response code="404">Article not found</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.ArticleController.DeleteArticlesById(System.Int32)">
+             <summary>
+             Delete article by id. Admin only.
+             </summary>
+             <param name="id">Article id. Greater than 0</param>
+             <remarks>
+             Sample request:
+            
+                 DELETE /article/2665
+            
+             </remarks>
+             <response code="200">Article was deleted</response>
+             <response code="400">Invalid id</response>
+             <response code="401">User Unauthorized</response>
+             <response code="403">User has no rights</response>
+             <response code="404">Article not found</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.ArticleController.AggregateArticles">
+             <summary>
+             Aggregate articles from rss. Admin only.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /article
+            
+             </remarks>
+             <response code="200">Aggregation was successful</response>
+             <response code="401">User Unauthorized</response>
+             <response code="403">User has no rights</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.AuthController.Login(Web_Api_Controllers.RequestModels.LoginRequest)">
+             <summary>
+             Login
+             </summary>
+             <param name="loginRequest">Login model. Password format: @"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9])\S{5,16}$"</param>
+             <remarks>
+             Sample request:
+            
+                 POST /auth/login
+                 {
+                    "email": "exmple@email.ru",
+                    "password": "Qwer123!!",
+                 }
+            
+             </remarks>
+             <response code="200">Successful login. Return Jwt and refresh token.</response>
+             <response code="400">Bad valid or ( incorrect email or password ).</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.AuthController.Registration(Web_Api_Controllers.RequestModels.RegistrationRequest)">
+             <summary>
+             Registration
+             </summary>
+             <param name="registrationRequest">
+             Registration model.
+             Password format: @"^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9])\S{5,16}$".
+             Name format: @"^[a-zA-Z]+$".
+             </param>
+             <remarks>
+             Sample request:
+            
+                 POST /auth/registration
+                 {
+                    "name": "Example",
+                    "email": "exmple@email.ru",
+                    "password": "Qwer123!!"
+                    "confirmPassword": "Qwer123!!"
+                 }
+            
+             </remarks>
+             <response code="200">Successful registration. New user added.</response>
+             <response code="400">Bad valid or user already exist.</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.AuthController.Refresh(Web_Api_Controllers.RequestModels.RefreshTokenRequest)">
+             <summary>
+             Refresh token
+             </summary>
+             <param name="refreshTokenRequest">
+             </param>
+             <remarks>
+             Sample request:
+            
+                 POST /auth/refresh-token
+                 {
+                    "refreshToken": "213DED52-5C70-460A-BF1F-A4339F9499AD"
+                 }
+            
+             </remarks>
+             <response code="200">Token valid. Return new Jwt and refresh token.</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.SettingsController.SetNewUserSettings(Web_Api_Controllers.RequestModels.PutSettingsRequest)">
+             <summary>
+             Update user settings. Only authorized users.
+             </summary>
+             <param name="request">
+             New user settings model.
+             Theme: only "dark" or "default".
+             Name format: @"^[a-zA-Z]+$".
+             Positive filter rate: Greater than or equal to 0 and less than or equal to 10.
+             </param>
+             <remarks>
+             Sample request:
+            
+                 PATCH /settings
+                 {
+                    "name": "Example",
+                    "theme": "default",
+                    "positiveRateFilter": "2"
+                 }
+            
+             </remarks>
+             <response code="200">User settings updated</response>
+             <response code="400">Not valid model</response>
+             <response code="401">User Unauthorized</response>
+             <response code="404">User not found</response>
+        </member>
+        <member name="M:Web_Api_Controllers.Controllers.SettingsController.GetUserSettings">
+             <summary>
+             Get user settings.Only authorized users.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /settings
+            
+             </remarks>
+             <response code="200">Return user settings model</response>
+             <response code="400">Not valid model</response>
+             <response code="401">User Unauthorized</response>
+             <response code="404">User not found</response>
+        </member>
+        <member name="P:Web_Api_Controllers.RequestModels.GetArticlesRequest.Page">
+            <summary>
+            Page number. Greater than 0.
+            </summary>
+        </member>
+        <member name="P:Web_Api_Controllers.RequestModels.GetArticlesRequest.PageSize">
+            <summary>
+            Number of article items per page. Greater than 0.
+            </summary>
+        </member>
+        <member name="P:Web_Api_Controllers.RequestModels.GetArticlesRequest.UserFilter">
+            <summary>
+            Articles with a rating higher than the specified value. Greater than or equal to 0 and less than or equal to 10.
+            </summary>
+        </member>
+    </members>
+</doc>

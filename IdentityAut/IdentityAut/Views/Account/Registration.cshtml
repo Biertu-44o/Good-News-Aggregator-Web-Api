@@ -1,0 +1,67 @@
+﻿@{
+    Layout = null;
+}
+@model MVC.Models.AccountModels.UserRegistrationViewModel;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/AuthoriazedErrors.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="@Url.Content("~/css/registration-login-menu.css")" rel="stylesheet" type="text/css" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+<div class="container container1" style="height: 700px;">
+    <div class="heading">
+            <h1 style="color: #fff">Регистрация</h1>
+        </div>
+
+            <div class="user-data-form">
+
+                <form asp-controller="Account" method="post" asp-action="Registration" style="margin-left: 20px;">
+
+                    <div class="text-danger validation-warning">
+                        <div asp-validation-summary="All"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label">Имя</label>
+                        <input asp-for="Name" class="form-control input">
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label">Почта</label>
+                        <input asp-for="Email" type="email" class="form-control input" placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Password" class="col-form-label">Пароль</label>
+                        <input asp-for="Password" type="password" class="form-control input" aria-labelledby="passwordHelpInline">
+                    </div>
+
+                    <div class="mb-3">
+                    <label asp-for="ConfirmPassword" class="col-form-label">Подтверждение пароля</label>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control input" aria-labelledby="passwordHelpInline">
+                    </div>
+
+                <div class="col-12 custom-btn" style="width: 200px;">
+                    <button class="custom-button-2 custom-button-3" type="submit">Зарегистрироваться</button>
+                    </div>
+
+                    <div class="col-12 custom-btn" style="width: 100px;">
+                        <a class="custom-button-2 custom-button-3" type="buttom" asp-controller="Account" asp-action="Login" method="get">Вход</a>
+                    </div>
+
+                <div class="col-12 custom-btn">
+                        <a type="buttom" asp-controller="Article" asp-action="GetArticlesByPage" method="get">На Главную</a>
+                    </div>
+                </form>
+            </div>
+            </div>
+
+</body>
+</html>

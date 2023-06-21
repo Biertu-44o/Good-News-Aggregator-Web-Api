@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Core.DTOs.Article.FullArticleDto
+
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - IdentityAut</title>
+    <link href="@Url.Content("~/css/full-article.css")" rel="stylesheet" type="text/css" />
+</head>
+<div style="padding-top: 0">
+
+    <div style="padding-top: 0; font-size: 20px;">
+
+        <p class="fs-1 fw-bolder" style="line-height: 1; padding-top: 0">@Html.Raw(Model.Title)</p>
+
+        <div style="padding: 10px; display: flex">
+            
+            <p class="fw-light fs-5">@Html.Raw(Model.SourceName)</p>
+            
+            <p class="fw-light fs-5" style="padding-left: 50px">@Html.Raw(Model.DateTime.ToLongDateString())</p>
+        </div>
+
+        <div style="padding: 0px;">
+            <p class="fs-5 fst-normal">@Html.Raw(@Model.FullText)</p>
+        </div>
+
+        <div>
+            <a type="bottom" style="width: 100%">Комментарии</a>
+        </div>
+    </div>
+</div>

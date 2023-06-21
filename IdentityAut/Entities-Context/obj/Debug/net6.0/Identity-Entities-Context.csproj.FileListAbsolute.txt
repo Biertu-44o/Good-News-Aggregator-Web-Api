@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\IdentityAut\Entities-Context\bin\Debug\net6.0\Identity-Entities-Context.deps.json
+C:\Users\User\source\repos\IdentityAut\Entities-Context\bin\Debug\net6.0\Identity-Entities-Context.runtimeconfig.json
+C:\Users\User\source\repos\IdentityAut\Entities-Context\bin\Debug\net6.0\Identity-Entities-Context.dll
+C:\Users\User\source\repos\IdentityAut\Entities-Context\bin\Debug\net6.0\Identity-Entities-Context.pdb
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.AssemblyInfo.cs
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.dll
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\refint\Identity-Entities-Context.dll
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.pdb
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\Identity-Entities-Context.genruntimeconfig.cache
+C:\Users\User\source\repos\IdentityAut\Entities-Context\obj\Debug\net6.0\ref\Identity-Entities-Context.dll

@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Data.CQS.deps.json
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Data.CQS.dll
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Data.CQS.pdb
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Core.dll
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Data.dll
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Core.pdb
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\bin\Release\net6.0\Data.pdb
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.AssemblyInfo.cs
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.csproj.CopyComplete
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.dll
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\refint\Data.CQS.dll
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\Data.CQS.pdb
+C:\Users\User\Desktop\Good-News-Agregator-WebApi\IdentityAut\Data.CQS\obj\Release\net6.0\ref\Data.CQS.dll

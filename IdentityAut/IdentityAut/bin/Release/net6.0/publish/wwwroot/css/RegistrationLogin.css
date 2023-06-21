@@ -1,0 +1,68 @@
+﻿.container1 {
+    display: block;
+    border-radius: 10px;
+    margin-top: 60px;
+    width: 320px;
+    background: #1e1c1c
+}
+.container2 {
+    margin-top: 15px;
+    width: 100%;
+    background: white;
+}
+.heading {
+    display: block;
+    text-align: center;
+}
+.form {
+    margin-left: 20px;
+}
+.input {
+    width: 250px;
+}
+.BOTTOMSI {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 15px
+}
+.ValidationWarning {
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 14px;
+    width: 240px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.btn-number {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #1e1c1c;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-Pages {
+    color: #fff;
+    background-color: #1e1c1c;
+    border-color: #3b3939;
+}
+
+.btn-Pages:hover {
+    color: #ffe81a;
+    background-color: #3b3939;
+    border-color: #3b3939;
+}

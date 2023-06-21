@@ -1,0 +1,82 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=267e1638_002D8b18_002D4284_002Dad8d_002D14c4f1986e0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AggregateArticlesDataFromRssSourceAsync_CorrectResult_CorrectAddToDb" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.ArticleServiceTests.GetFullContentArticlesAsync_WithCorrectOnlinerArticles_CorrectAddToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.ArticleServiceTests.GetFullContentArticlesAsync_WithCorrectECOportalArticles_CorrectAddToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.ArticleServiceTests.GetFullContentArticlesAsync_WithInCorrectArticleSource_CorrectAddToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.ArticleServiceTests.GetFullContentArticlesAsync_WithInCorrectArticle_CorrectAddToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.ArticleServiceTests.RateArticlesAsync_WithEmptyArticleList_CorrectAddToDb&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.UserServiceTests.RegistrationAsync_WithCorrectUserDto_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.UserServiceTests.RegistrationAsync_WithExistentUser_ReturnFalse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.UserServiceTests.RegistrationAsync_WithIncorrectRoleFromRoleService_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.UserServiceTests.LoginAsync_WithCorrectUserDto_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2F7EC63E-690E-4F43-BCB6-3496B52A7F7F::net6.0::Tests.UserServiceTests.RegistrationAsync_WithNullRoleFromRoleService_ReturnCorrectError&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=921b7bb9_002D2716_002D4c31_002D887c_002D2926e29d9e8d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="IsUserExistAsync_WithInCorrectEmail_ReturnCorrectError" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UiThemeServiceTests.IsUserExistAsync_WithInCorrectEmail_ReturnCorrectError&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc808c49_002D0eb1_002D4950_002D8f0a_002D899ff0ad2790/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Login_CorrectLoginPassword_Ok" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Login_CorrectLoginPassword_Ok&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Registration_CorrectData_Ok&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.ArticleControllerTests.GetSelectedArticle_IncorrectId_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.ArticleControllerTests.GetArticlesCount_IncorrectRate_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.ArticleControllerTests.DeleteArticlesById_IncorrectId_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.SettingsControllerTests.SetNewUserSettings_NotValid_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.SettingsControllerTests.GetUserSettings_UseNotFound_BadRequest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fcf79ec2_002Df8d8_002D4042_002Daeb5_002Db0e1ebc575d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RegistrationAsync_WithNullRoleFromRoleService_ReturnCorrectError" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithCorrectUser_ReturnCorrect&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithNullEmail_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithNoneExistUser_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithNullUserRoles_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithEmptyUserRoles_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserServiceTests.GetUserClaimsAsync_WithCorrectUser_ReturnCorrectClaimList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UiThemeServiceTests.IsUserExistAsync_WithInCorrectEmail_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UiThemeServiceTests.InitiateThemeAsync_WithNullFromConfigurationFile_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UiThemeServiceTests.GetIdDefaultThemeAsync_WithEmptyThemeId_CorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UiThemeServiceTests.GetAllThemesAsync_WithEmptyThemeList_CorrectCallInitiateMethod&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserRoleServiceTests.GetDefaultRoleAsync_WithEmptyThemeId_CorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserRoleServiceTests.GetUserRolesByUserIdAsync_WithIncorrectId_CorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.UserRoleServiceTests.GetDefaultRoleAsync_WithNullFromGetDefaultUserRoleIdQuery_CorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.InitiateThemeAsync_WithNullFromConfigurationFile_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.GetJwtTokenString_WithNullOrEmptyClaims_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.InitiateThemeAsync_WithNullSecurityKeyFromConfigurationFile_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.AddRefreshTokenAsync_WithNullUserFromUserService_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.AddRefreshTokenAsync_WithErrorFromAddRefreshTokenCommand_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.RefreshTokenAsync_WithNullUserFromGetUserByRefreshTokenQuery_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.RefreshTokenAsync_WithEmptyUserClaims_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.RefreshTokenAsync_WithCorrectData_ReturnCorrectToken&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.InitiateThemeAsync_WithCorrectData_ReturnNotNullToken&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.ArticleServiceTests.GetFullArticleByIdAsync_WithCorrectId_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.RefreshTokenAsync_WithNullUser_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.JwtServiceTests.RefreshTokenAsync_WithCorrectData_ReturnNotEmptyToken&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.SettingsServiceTests.GetFullArticleByIdAsync_WithCorrectId_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.SettingsServiceTests.UpdateUserSettingsAsync_WithEmptyArguments_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.SettingsServiceTests.UpdateUserSettingsAsync_WithCorrectArguments_ReturnTrue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.SettingsServiceTests.UpdateUserSettingsAsync_WithNonExistUser_ReturnFalse&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.ArticleSentimentAnalyzerTests.TranslateText_WithEmptyText_ReturnNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D1836E23-AE9C-4C12-91F0-F3617D817545::net6.0::Tests.ArticleSentimentAnalyzerTests.GetArticlesWithSentimentScore_WithEmptyConfigurationFile_ReturnCorrectError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.ArticleControllerTests.GetSelectedArticle_ServiceReturnNull_ReturnNoFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.ArticleControllerTests.DeleteArticlesById_ServiceReturnNull_ReturnNoFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Login_ServiceReturnNull_ReturnNoFound&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Login_UserNotExist_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Registration_NotValid_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Registration_UserNotExist_BadRequest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B5EA8E1F-02DE-4B96-BA73-3E212FB63F04::net6.0::WebApi.Tests.AuthControllerTests.Login_CorrectLoginPassword_Ok&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=A00C4874D2086A4FB8744F4E3B3A252C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=A00C4874D2086A4FB8744F4E3B3A252C/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A00C4874D2086A4FB8744F4E3B3A252C/Name/@EntryValue">Web Api Controllers</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=A00C4874D2086A4FB8744F4E3B3A252C/ProjectGuid/@EntryValue">F3D9E58D0EACF34CB072BCD6D6CD66BF</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">ACB2D013A7BCC94980944236D2E1B3B4</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=ACB2D013A7BCC94980944236D2E1B3B4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=ACB2D013A7BCC94980944236D2E1B3B4/Name/@EntryValue">Web Api Controllers</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=ACB2D013A7BCC94980944236D2E1B3B4/ProjectGuid/@EntryValue">F3D9E58D0EACF34CB072BCD6D6CD66BF</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=ACB2D013A7BCC94980944236D2E1B3B4/Type/@EntryValue">project</s:String></wpf:ResourceDictionary>

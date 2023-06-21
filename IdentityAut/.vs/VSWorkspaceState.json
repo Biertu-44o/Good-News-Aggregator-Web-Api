@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Repositories",
+    "\\Repositories\\Implementations",
+    "\\Services",
+    "\\Services\\Account",
+    "\\Web Api Controllers",
+    "\\Web Api Controllers\\Controllers"
+  ],
+  "SelectedNode": "\\Services\\Account\\UiThemeService.cs",
+  "PreviewInSolutionExplorer": false
+}

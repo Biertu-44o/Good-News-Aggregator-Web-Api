@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\ASP-Project\ASProject\IdentityAut\DTOs\bin\Release\net6.0\publish\Core.dll
+C:\Users\User\Desktop\ASP-Project\ASProject\IdentityAut\DTOs\bin\Release\net6.0\publish\Core.deps.json
+C:\Users\User\Desktop\ASP-Project\ASProject\IdentityAut\DTOs\bin\Release\net6.0\publish\Core.pdb
+C:\Users\User\Desktop\ASP-Project\ASProject\IdentityAut\DTOs\bin\Release\net6.0\publish\System.ServiceModel.Syndication.dll
