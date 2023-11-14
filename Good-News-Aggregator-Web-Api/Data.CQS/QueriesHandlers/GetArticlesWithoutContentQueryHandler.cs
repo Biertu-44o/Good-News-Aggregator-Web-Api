@@ -1,14 +1,8 @@
 ﻿using Data.CQS.Queries;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Core.DTOs.Article;
 using Entities_Context.Entities.UserNews;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using AutoMapper;
 
 namespace Data.CQS.QueriesHandlers
@@ -28,7 +22,7 @@ namespace Data.CQS.QueriesHandlers
         {
             return await _articleContext.Articles
                 .AsNoTracking()
-                .Where(x => x.FullText==null)
+                .Where(x => x.FullText==null || String.IsNullOrEmpty(x.FullText))
                 .Include(x=>x.Source)
                 .Select(x=>_mapper.Map<FullArticleDto>(x))
                 .ToListAsync(cancellationToken: cancellationToken);

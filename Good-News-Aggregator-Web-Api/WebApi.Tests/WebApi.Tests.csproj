@@ -27,7 +27,6 @@
     <ProjectReference Include="..\DTOs\Core.csproj" />
     <ProjectReference Include="..\Entities-Context\Data.csproj" />
     <ProjectReference Include="..\IServices\IServices.csproj" />
-    <ProjectReference Include="..\Repositores\IServices.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
     <ProjectReference Include="..\Web Api Controllers\Web Api Controllers.csproj" />
   </ItemGroup>

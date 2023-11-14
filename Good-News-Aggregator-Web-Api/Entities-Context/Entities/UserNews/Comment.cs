@@ -10,7 +10,7 @@ namespace Entities_Context.Entities.UserNews
     public class Comment
     {
         public Int32 Id { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTimeOffset DateTime { get; set; }
         public Int32 PositiveRate { get; set; }
         public String Text { get; set; }
 

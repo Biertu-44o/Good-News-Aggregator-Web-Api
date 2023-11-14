@@ -7,7 +7,6 @@ using Data.CQS.Queries;
 using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Data.CQS.QueriesHandlers
 {
@@ -22,7 +21,7 @@ namespace Data.CQS.QueriesHandlers
 
         public async Task<Int32> Handle(GetUserArticleRateFilterByEmailQuery request, CancellationToken cancellationToken)
         {
-            if (request.Email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.Email))
             {
                 throw new ArgumentNullException(nameof(request));
             }

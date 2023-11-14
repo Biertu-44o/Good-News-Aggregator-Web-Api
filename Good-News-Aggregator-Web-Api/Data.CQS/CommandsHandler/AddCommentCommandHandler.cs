@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using MediatR;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Data.CQS.CommandsHandler
 {
@@ -27,7 +26,7 @@ namespace Data.CQS.CommandsHandler
         public async Task Handle(AddCommentCommand request,
             CancellationToken cancellationToken)
         {
-            if (request.UserEmail.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.UserEmail))
             {
                 throw new ArgumentNullException(nameof(request.UserEmail));
             }

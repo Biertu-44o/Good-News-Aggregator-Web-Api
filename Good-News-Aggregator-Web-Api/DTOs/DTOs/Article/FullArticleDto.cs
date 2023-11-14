@@ -21,7 +21,7 @@ namespace Core.DTOs.Article
         public String SourceUrl { get; set; }
         public String SourceName { get; set; }
         public String ArticlePicture { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTimeOffset DateTime { get; set; }
         public Int32 SourceId { get; set; }
     }
 }

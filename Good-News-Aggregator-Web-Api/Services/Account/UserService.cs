@@ -43,7 +43,7 @@ namespace Services.Account
 
         public async Task<Boolean> IsUserExistAsync(String email)
         {
-            if (!email.IsNullOrEmpty())
+            if (!String.IsNullOrEmpty(email))
             {
                 return await _mediator.Send(new IsUserExistByEmailQuery()
                 {
@@ -134,7 +134,7 @@ namespace Services.Account
 
         public async Task<List<Claim>> GetUserClaimsAsync(String email)
         {
-            if (email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(email))
             {
                 throw new ArgumentNullException(nameof(email));
             }
@@ -157,7 +157,7 @@ namespace Services.Account
                 new Claim(ClaimsIdentity.DefaultNameClaimType, user.Email),
             };
 
-            if (roles.Count==0 || roles.First().Role.IsNullOrEmpty())
+            if (roles.Count==0 || String.IsNullOrEmpty(roles.First().Role))
             {
                 Log.Error("Failed create user claim attempt {0}: empty user roles", email);
                 throw new NullReferenceException();

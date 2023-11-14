@@ -1,11 +1,7 @@
-﻿using System.Formats.Asn1;
-using AutoMapper;
-using Core.DTOs.Account;
-using Data.CQS.Queries;
+﻿using Data.CQS.Queries;
 using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Data.CQS.QueriesHandlers
 {
@@ -21,7 +17,7 @@ namespace Data.CQS.QueriesHandlers
 
         public async Task<User> Handle(GetUserByEmailQuery request, CancellationToken cancellationToken)
         {
-            if (request.Email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.Email))
             {
                 throw new ArgumentNullException(request.Email);
             }

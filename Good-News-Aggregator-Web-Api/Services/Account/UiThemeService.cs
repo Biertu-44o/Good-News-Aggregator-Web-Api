@@ -32,7 +32,7 @@ namespace Services.Account
 
             String? themesFromConfigFile = _configuration["Themes:all"];
             
-            if (themesFromConfigFile.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(themesFromConfigFile))
             {
                 throw new ArgumentException("No themes are defined in the configuration file");
             }

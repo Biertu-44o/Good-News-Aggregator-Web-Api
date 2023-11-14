@@ -27,16 +27,25 @@ namespace Data.CQS.QueriesHandlers
         public async Task<List<ShortArticleDto>> Handle(GetArticleByPageQuery request, CancellationToken cancellationToken)
         {
 
-            return await _articleContext.Articles
-                .AsNoTracking()
-                .Where(x => request.UserFilter <= x.PositiveRate)
-                .OrderByDescending(x=>x.DateTime)
-                .Include(x=>x.Source)
-                .Skip((request.Page-1)*request.Count)
-                .Take(request.Count)
-                .Select(a => _mapper
-                    .Map<ShortArticleDto>(a))
-                .ToListAsync(cancellationToken: cancellationToken);
+            try
+            {
+                return await _articleContext.Articles
+                    .AsNoTracking()
+                    .Where(x => request.UserFilter <= x.PositiveRate)
+                    .OrderByDescending(x => x.DateTime)
+                    .Include(x => x.Source)
+                    .Skip((request.Page - 1) * request.Count)
+                    .Take(request.Count)
+                    .Select(a => _mapper
+                        .Map<ShortArticleDto>(a))
+                    .ToListAsync(cancellationToken: cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                var exc = ex;
+                
+                return null;
+            }
         }
     }
 }

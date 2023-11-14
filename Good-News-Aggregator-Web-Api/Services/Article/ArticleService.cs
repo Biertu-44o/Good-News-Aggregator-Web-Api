@@ -17,6 +17,7 @@ using Serilog;
 using Data.CQS.QueriesHandlers;
 using System.Drawing.Printing;
 using Data.CQS.Commands;
+using Microsoft.VisualBasic;
 
 namespace Services.Article
 {
@@ -261,7 +262,7 @@ namespace Services.Article
                                     SourceName = source.Name,
                                     ArticleTags = new List<String>(),
                                     Title = item.Title.Text,
-                                    DateTime = item.PublishDate.DateTime
+                                    DateTime = DateTimeOffset.Now
                                 };
 
                                 articles.Add(articleDto);

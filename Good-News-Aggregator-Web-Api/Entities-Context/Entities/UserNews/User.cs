@@ -18,7 +18,7 @@ namespace Entities_Context.Entities.UserNews
         public String Email { get; set; }
         public String Password { get; set; }
         public Int32 PositiveRate { get; set; }
-        public DateTime Created { get; set; }
+        public DateTimeOffset Created { get; set; }
 
         public Int32 PositiveRateFilter { get; set; }
 

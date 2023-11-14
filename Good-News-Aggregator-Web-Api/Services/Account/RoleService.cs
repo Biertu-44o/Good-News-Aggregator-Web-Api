@@ -56,7 +56,7 @@ namespace Services.Account
         {
             String? rolesFromConfig = _configuration["Roles:all"];
 
-            if (rolesFromConfig.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(rolesFromConfig))
             {
                 throw new ArgumentException("No roles are defined in the configuration file");
             }
@@ -76,11 +76,11 @@ namespace Services.Account
                 throw new ArgumentException("No default role is defined in the configuration file");
             }
 
-            UserRole? defaultRole = await _mediator.Send(new GetDefaultUserRoleQuery()
-            {
-                RoleName = defaultRoleFromConfigFile
-            });
-            
+                UserRole? defaultRole = await _mediator.Send(new GetDefaultUserRoleQuery()
+                {
+                    RoleName = defaultRoleFromConfigFile
+                });
+
             if (defaultRole == null) 
             {
                 Log.Warning("Default role is not found");

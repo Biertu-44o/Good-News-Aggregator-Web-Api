@@ -14,7 +14,7 @@ namespace Entities_Context.Entities.UserNews
         public Double SecondRate { get; set; }
         public String ArticleSourceUrl { get; set; }
         public String? ArticlePicture { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTimeOffset DateTime { get; set; }
         public Int32 SourceId { get; set; }
         public Source Source { get; set; }
 

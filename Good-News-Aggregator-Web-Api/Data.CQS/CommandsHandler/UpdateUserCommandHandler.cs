@@ -2,7 +2,7 @@
 using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
+
 
 namespace Data.CQS.CommandsHandler
 {
@@ -17,7 +17,7 @@ namespace Data.CQS.CommandsHandler
 
         public async Task Handle(UpdateUserCommand request, CancellationToken cancellationToken)
         {
-            if (request.Email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.Email))
             {
                 throw new ArgumentNullException(nameof(request.Email));
             }

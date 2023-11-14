@@ -2,7 +2,6 @@
 using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Data.CQS.QueriesHandlers
 {
@@ -17,7 +16,7 @@ namespace Data.CQS.QueriesHandlers
 
         public async Task<Int32> Handle(GetDefaultThemeIdQuery request, CancellationToken cancellationToken)
         {
-            if (request.Name.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.Name))
             {
                 throw new ArgumentNullException(nameof(request));
             }

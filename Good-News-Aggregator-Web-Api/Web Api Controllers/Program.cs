@@ -7,6 +7,7 @@ using FluentValidation;
 using Hangfire;
 using Web_Api_Controllers.Validators;
 using Web_Api_Controllers.Extensions;
+using System.Reflection.Emit;
 
 namespace Web_Api_Controllers
 {
@@ -19,10 +20,11 @@ namespace Web_Api_Controllers
 
             builder.Services.AddDbContext<UserArticleContext>(opt =>
             {
+                AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
                 var connString = builder.Configuration
                     .GetConnectionString("DefaultConnection");
-                opt.UseSqlServer(connString);
-
+                opt.UseNpgsql(connString, options => options.MigrationsHistoryTable("__EFMigrationsHistory", "pub"));
+                
             });
 
             builder.JwtConfiguration();
@@ -50,12 +52,12 @@ namespace Web_Api_Controllers
 
             builder.Services.AddAutoMapper(typeof(Program));
 
-            builder.Services.AddHangfire(config =>
-                config.SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
-                    .UseSimpleAssemblyNameTypeSerializer()
-                    .UseRecommendedSerializerSettings()
-                    .UseSqlServerStorage(builder.Configuration
-                        .GetConnectionString("DefaultConnection")));
+            //builder.Services.AddHangfire(config =>
+            //    config.SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
+            //        .UseSimpleAssemblyNameTypeSerializer()
+            //        .UseRecommendedSerializerSettings()
+            //        .UseSqlServerStorage(builder.Configuration
+            //            .GetConnectionString("DefaultConnection")));
 
             builder.Services.AddGoodNewsAggregatorServices();
 
@@ -63,7 +65,7 @@ namespace Web_Api_Controllers
             {
                 options.Filters.Add<CustomExceptionFilterAttribute>();
             });
-            builder.Services.AddHangfireServer();
+            //builder.Services.AddHangfireServer();
 
             builder.Services.AddSwaggerGen(options =>
             {
@@ -94,18 +96,18 @@ namespace Web_Api_Controllers
             app.UseAuthorization();
             app.UseHttpsRedirection();
 
-            app.UseHangfireDashboard(
-            //    "/hangfire", new DashboardOptions
-            //{
+            //app.UseHangfireDashboard(
+            ////    "/hangfire", new DashboardOptions
+            ////{
 
-            //    Authorization = new[] { new MyAuthorizationFilter() }
+            ////    Authorization = new[] { new MyAuthorizationFilter() }
 
-            //}
-            );
+            ////}
+            //);
             app.UseSerilogRequestLogging();
             app.MapControllers();
 
-            builder.Services.GoodNewsAggregatorRecurringJobs();
+            //builder.Services.GoodNewsAggregatorRecurringJobs();
 
             app.Run();
         }

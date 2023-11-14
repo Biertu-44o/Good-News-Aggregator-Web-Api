@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj": {}
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj",
         "projectName": "Data.CQS",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
               }
             }
           }
@@ -84,18 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,18 +149,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,8 +177,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
               }
             }
           }
@@ -211,10 +211,6 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -224,6 +220,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -246,18 +246,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj",
         "projectName": "IServices",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -274,11 +274,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
               }
             }
           }
@@ -314,86 +314,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj",
-        "projectName": "IServices",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Hangfire.SqlServer": {
-              "target": "Package",
-              "version": "[1.8.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -410,20 +342,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj"
               }
             }
           }
@@ -523,18 +452,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj": {
+    "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj",
         "projectName": "Web Api Controllers",
-        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\Web Api Controllers.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Web Api Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -545,30 +474,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Data.CQS\\Data.CQS.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\DTOs\\Core.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Entities-Context\\Data.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\IServices\\IServices.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Repositores\\IServices.csproj"
-              },
-              "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Agregator-WebApi\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj"
+              "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Good-News-Aggregator-Web-Api\\Good-News-Aggregator-Web-Api\\Services\\Services.csproj"
               }
             }
           }
@@ -619,6 +544,10 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -629,15 +558,15 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Serilog": {
               "target": "Package",
@@ -687,7 +616,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -36,11 +36,11 @@ namespace Services.Account
 
         public async Task AddNewComment(CommentDto comment, String email)
         {
-            if (comment.ArticleId < 1 || comment.Text.IsNullOrEmpty() || comment.Text.Length > 50)
+            if (comment.ArticleId < 1 || String.IsNullOrEmpty(comment.Text) || comment.Text.Length > 50)
             {
                 throw new ArgumentException(nameof(comment));
             }
-            if (email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(email))
             {
                 throw new ArgumentException(nameof(email));
             }

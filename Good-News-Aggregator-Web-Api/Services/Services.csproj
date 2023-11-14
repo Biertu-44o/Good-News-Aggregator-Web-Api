@@ -31,7 +31,6 @@
     <ProjectReference Include="..\DTOs\Core.csproj" />
     <ProjectReference Include="..\Entities-Context\Data.csproj" />
     <ProjectReference Include="..\IServices\IServices.csproj" />
-    <ProjectReference Include="..\Repositores\IServices.csproj" />
   </ItemGroup>
 
 </Project>

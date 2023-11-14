@@ -30,7 +30,7 @@ namespace Services.Account
         
         public async Task<userSettingsDTO> GetUserInformationAsync(String email)
         {
-            if (email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(email))
             {
                 throw new ArgumentNullException(nameof(email));
             }
@@ -60,7 +60,7 @@ namespace Services.Account
 
         public async Task<Boolean> UpdateUserSettingsAsync(userSettingsDTO userSettingsDto, String email)
         {
-            if (email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(email))
             {
                 throw new ArgumentException("Failed attempt to change settings : null arguments" 
                                             + nameof(userSettingsDto) + 
@@ -90,7 +90,7 @@ namespace Services.Account
 
         public async Task<Int32> GetUserArticleRateFilter(String email)
         {
-            if (email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(email))
             {
                 throw new ArgumentException("Failed attempt to change settings : null arguments"
                                             + nameof(email));

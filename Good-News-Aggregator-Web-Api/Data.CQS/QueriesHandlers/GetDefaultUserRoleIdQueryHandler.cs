@@ -7,7 +7,7 @@ using Data.CQS.Queries;
 using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
+
 
 namespace Data.CQS.QueriesHandlers
 {
@@ -22,7 +22,7 @@ namespace Data.CQS.QueriesHandlers
 
         public async Task<UserRole> Handle(GetDefaultUserRoleQuery request, CancellationToken cancellationToken)
         {
-            if (request.RoleName.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.RoleName))
             {
                 throw new ArgumentNullException(nameof(request));
             }
@@ -31,10 +31,6 @@ namespace Data.CQS.QueriesHandlers
                 .Where(x => x.Role.Equals(request.RoleName))
                 .FirstOrDefaultAsync(cancellationToken: cancellationToken);
 
-            if (role == null)
-            {
-                throw new NullReferenceException(nameof(request));
-            }
 
             return role;
         }

@@ -10,7 +10,7 @@ namespace Core.DTOs.Article
     {
         public Int32 Id { get; set; }
         public Int32 ArticleId { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTimeOffset DateTime { get; set; }
         public String Text { get; set; }
         public String Name { get; set; }
         public String? ProfilePicture { get; set; }

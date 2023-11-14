@@ -69,7 +69,7 @@ namespace Web_Api_Controllers.Controllers
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> AddNewComment([FromBody] PostCommentRequest comment)
         {
-            if (comment.ArticleId < 1 || comment.Text.Length > 50  || HttpContext.User.Identity!.Name.IsNullOrEmpty())
+            if (comment.ArticleId < 1 || comment.Text.Length > 50  || String.IsNullOrEmpty(HttpContext.User.Identity!.Name))
             {
                 return BadRequest();
             }

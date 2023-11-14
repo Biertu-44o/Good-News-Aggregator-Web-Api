@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using Data.CQS.Commands;
 using Entities_Context.Entities.UserNews;
 using MediatR;
-using Microsoft.Identity.Client;
 
 namespace Data.CQS.CommandsHandler
 {

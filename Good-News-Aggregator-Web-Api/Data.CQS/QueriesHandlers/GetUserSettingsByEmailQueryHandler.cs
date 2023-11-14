@@ -10,7 +10,6 @@ using Entities_Context.Entities.UserNews;
 using MediatR;
 using Microsoft.AspNetCore.Server.HttpSys;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Data.CQS.QueriesHandlers
 {
@@ -27,7 +26,7 @@ namespace Data.CQS.QueriesHandlers
 
         public async Task<userSettingsDTO> Handle(GetUserSettingsByEmailQuery request, CancellationToken cancellationToken)
         {
-            if (request.Email.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(request.Email))
             {
                 throw new ArgumentNullException(nameof(request));
             }

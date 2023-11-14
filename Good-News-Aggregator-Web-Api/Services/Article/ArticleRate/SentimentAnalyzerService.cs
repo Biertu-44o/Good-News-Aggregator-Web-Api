@@ -128,7 +128,7 @@ namespace Services.Article.ArticleRate
                         var lemmas = (JsonConvert.DeserializeObject<RootObject1[]>(responseString))
                             .SelectMany(root => root.Annotations.Lemma).Select(lemma => lemma.Value).ToArray();
 
-                        using (var jsonReader = new StreamReader(@"C:\Users\User\Desktop\ASP-Project\ASProject\IdentityAut\Services\Article\ArticleRate\AFINN-ru.json"))
+                        using (var jsonReader = new StreamReader(@"C:\Users\User\Desktop\Good-News-Aggregator-Web-Api\Good-News-Aggregator-Web-Api\Services\Article\ArticleRate\AFINN-ru.json"))
                         {
                             var json = await jsonReader.ReadToEndAsync();
 

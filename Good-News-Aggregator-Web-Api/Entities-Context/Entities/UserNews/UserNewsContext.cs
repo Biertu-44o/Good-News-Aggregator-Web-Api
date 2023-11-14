@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 
 namespace Entities_Context.Entities.UserNews
@@ -22,6 +23,14 @@ namespace Entities_Context.Entities.UserNews
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             base.OnConfiguring(optionBuilder);
+            
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.HasDefaultSchema("pub");
+
         }
     }
 

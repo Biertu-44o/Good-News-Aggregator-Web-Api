@@ -1,11 +1,9 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Azure.Core;
 using Core.DTOs.Account;
 using Data.CQS.Commands;
 using Data.CQS.Queries;
-using Entities_Context.Data.Migration.UserArticle;
 using Entities_Context.Entities.UserNews;
 using IServices.Services;
 using MediatR;
@@ -38,7 +36,7 @@ namespace Services.Account
 
             var SecurityKey = _configuration["Jwt:SecurityKey"];
 
-            if (SecurityKey.IsNullOrEmpty())
+            if (String.IsNullOrEmpty(SecurityKey))
             {
                 throw new InvalidOperationException("Can't read configuration file");
             }
